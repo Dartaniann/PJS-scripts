@@ -1,0 +1,7 @@
+function heal()
+    game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(true)
+end 
+
+function stopheal() 
+    game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(false)
+end 
