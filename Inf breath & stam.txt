@@ -1,7 +1,0 @@
-function stamina(amount)
-    getrenv()._G:Stamina(-amount)
-end 
-
-function breath(amount)
-    getrenv()._G:Breath(-amount)
-end 
